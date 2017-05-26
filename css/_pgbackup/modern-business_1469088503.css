@@ -1,0 +1,201 @@
+
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+ nav {
+        width: 100%;
+        height: 40px;
+        background: -webkit-linear-gradient(#6da4c5, #118ed8, #6da4c5, #118ed8, #6da4c5);
+        background: -o-linear-gradient(#6da4c5, #118ed8, #6da4c5, #118ed8, #6da4c5);
+        background: linear-gradient(#6da4c5, #118ed8, #6da4c5, #118ed8, #6da4c5);
+        border-radius: 6px !important;
+        -moz-border-radius: 6px !important;
+    }
+.collapse{
+    background: -webkit-linear-gradient(#6da4c5, #118ed8, #6da4c5, #118ed8, #6da4c5);
+        background: -o-linear-gradient(#6da4c5, #118ed8, #6da4c5, #118ed8, #6da4c5);
+        background: linear-gradient(#6da4c5, #118ed8, #6da4c5, #118ed8, #6da4c5);
+
+}
+.dropdown-menu{
+        background: -webkit-linear-gradient(#6da4c5, #118ed8, #6da4c5, #118ed8, #6da4c5);
+        background: -o-linear-gradient(#6da4c5, #118ed8, #6da4c5, #118ed8, #6da4c5);
+        background: linear-gradient(#6da4c5, #118ed8, #6da4c5, #118ed8, #6da4c5);
+        border-radius: 6px !important;
+        -moz-border-radius: 6px !important;
+}
+
+nav a{
+    color: white !important;
+    font-size: 0.8em !important;
+    }
+nav a{
+    color: white !important;
+    font-size: 0.8em !important;
+    }
+
+.dropdown-menu{
+     background-color: #3e8e41;
+    color: black;
+
+}
+.navbar-brand {
+    color: white !important;
+     font-size: 1.4em !important;
+}
+.container{
+    margin-bottom: 0px;
+}
+.firstcharacter { 
+    float: left; 
+    color: #6da4c5;
+    font-size: 50px; 
+    line-height: 40px; 
+    padding-top: 2px; 
+    padding-right: 4px;
+    padding-left: 1px; 
+    font-family: Georgia;
+ }
+ .webfont{
+    font-size: 1em !important;
+ }
+ .headerlist{
+    color: #118ed8 !important;
+ }
+ .titles{
+     color:#4f2102;
+ }
+ .well >h5 {
+    color: #118ed8 !important;
+ }
+ .page-header{
+   color: #4f2102 !important;
+ }
+ 
+.form-signin {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,0.1);  
+}
+  .form-signin-heading,
+    .checkbox {
+      margin-bottom: 30px;
+    }
+
+    .checkbox {
+      font-weight: normal;
+    }
+
+    .form-control {
+      position: relative;
+      font-size: 16px;
+      height: auto;
+      padding: 10px;
+        @include box-sizing(border-box);
+
+        &:focus {
+          z-index: 2;
+        }
+    }
+
+    input[type="text"] {
+      margin-bottom: -1px;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+
+    input[type="password"] {
+      margin-bottom: 20px;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+    }
+    h6 h5 h4 h3 h2 h1{
+       color: #118ed8 !important;
+    }
+
